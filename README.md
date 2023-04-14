@@ -51,17 +51,14 @@ c.	Use SVM to report performance.
 3.	Apply Linear Discriminant Analysis (LDA) on Iris.csv dataset to reduce dimensionality of data tok=2.
 
   
-    In the below code, I have imported the lineardiscriminantanalysis and read function to read the given data. iloc () function is used to get the location. Standard scalar and label encoder to get the transformed data and print function to print the output.
-
- 
-
+         In the below code, I have imported the lineardiscriminantanalysis and read function to read the given data. iloc () function is used to get the location. Standard scalar and label encoder to get the transformed data and print function to print the output.
 
 
 4. Briefly identify the difference between PCA and LDA
 
-    Both LDA and PCA rely on linear transformations and aim to maximize the variance in a lower dimension. PCA is an unsupervised learning algorithm while LDA is a supervised learning algorithm. This means that PCA finds directions of maximum variance regardless of class labels while LDA finds directions of maximum class separability.
-    It reduces the features into a smaller subset of orthogonal variables, called principal components – linear combinations of the original variables. The first component captures the largest variability of the data, while the second captures the second largest, and so on.
-    LDA finds the linear discriminants in order to maximize the variance between the different categories while minimizing the variance within the class.
+        Both LDA and PCA rely on linear transformations and aim to maximize the variance in a lower dimension. PCA is an unsupervised learning algorithm while LDA is a supervised learning algorithm. This means that PCA finds directions of maximum variance regardless of class labels while LDA finds directions of maximum class separability.
+        It reduces the features into a smaller subset of orthogonal variables, called principal components – linear combinations of the original variables. The first component captures the largest variability of the data, while the second captures the second largest, and so on.
+        LDA finds the linear discriminants in order to maximize the variance between the different categories while minimizing the variance within the class.
 
- 
+
 
